@@ -29,17 +29,64 @@ button{
 .sub-menu h4{
     display: inline;
     padding: 8px;
+   
 }
 .introduction{
-    display: inline;
+    display: flexbox;
+    position: relative;
 }
-.introduction .input{
-    border-radius: 15px;
-    border-bottom:solid 2px #242323;
-    width: 70px;
-    height: 10px;
-    margin-left: 600px;
+.introduction h1{
+   
+    font-size: 1.8em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.375;
+    font-weight: normal;
+    direction: ltr;
+    top: 20px;
+    border: 0;
 }
+.introduction select{
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 676px;
+    z-index: 1;
+    width: 65px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border: initial;
+    font-size: medium;
+}    
+.sub-menu select{
+    display: flexbox;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 690px;
+    z-index: 1;
+    width:150px;
+    height: 5%;
+    margin: 205px;
+    padding: 10;
+    border: 0;
+    border: initial;
+    font-size: medium;
+}
+.sub-menu .acesso{
+   position: absolute;
+    left: 720px;
+    font-size: medium;
+}
+.sub-menu .acesso1{
+    position: absolute;
+     left: 800px;
+}
+.sub-menu .acesso2{
+    position: absolute;
+     left: 750px;
+ }
 .artigo{
     color: black;
 }
@@ -85,13 +132,14 @@ a { color:blue; text-decoration: none;}
     grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
     padding-left: 1rem;
     padding-right: 1rem;
+    background-color: #D4F2CE;
     
     
 }
 .footer {
     min-height: 100px;
     border-top: solid 1px #cdcdcd;
-    background-color:#D4F2CE;
+    background-color:#cdcdcd;
 }
 .anchors {
     display: flex;
