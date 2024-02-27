@@ -34,9 +34,10 @@ button{
     display: inline;
 }
 .introduction .input{
-    border: 0;
-    border-bottom: #242323;
+    border-radius: 15px;
+    border-bottom:solid 2px #242323;
     width: 70px;
+    height: 10px;
     margin-left: 600px;
 }
 .artigo{
