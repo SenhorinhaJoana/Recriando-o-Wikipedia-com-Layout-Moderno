@@ -30,16 +30,30 @@ button{
     display: inline;
     padding: 8px;
 }
+.introduction{
+    display: inline;
+}
+.introduction .input{
+    border: 0;
+    border-bottom: #242323;
+    width: 70px;
+    margin-left: 600px;
+}
 .artigo{
     color: black;
 }
 span {
     color: red;
 }
+iframe{
+    display: flex;
+    position: relative;
+    left: 100px;
+}
 .logo{
     display: flex;
     height: 100px;
-    background-color: #ffe188;
+    background-color: #D4F2CE;
 }
 .logo img{
     mix-blend-mode: multiply;
@@ -76,25 +90,54 @@ a { color:blue; text-decoration: none;}
 .footer {
     min-height: 100px;
     border-top: solid 1px #cdcdcd;
-    background-color:#ffe188;
+    background-color:#D4F2CE;
 }
 .anchors {
+    display: flex;
     border-left: solid 1px #cdcdcd;
-    padding-left: 15px;
+    flex-direction: column; 
+}
+.anchors h3{
+    background-color: #D4F2CE;
+    padding: 10px;
+    margin-left: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.anchors h6{
+    background-color:#D4F2CE;
+    padding: 2px;
+    margin-left: 20px;
+    text-align: center;
+    margin-top:1px;
+    margin-bottom: 0;
+}
+.anchors h4{
+    background-color: #D4F2CE;
+    padding: 3px;
+    margin-left: 20px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .sidebar {
     border-right: solid 1px #cdcdcd;
 }
 
-
 .protagonista{
-    display: flex;
+    display: flexbox;
 }
-.protagonista figure img{
-    width: 300px;
-    height: 200px;
-   margin-top: 35px;
-   margin-left: 30px;
+figure img{
+    
+    width: 180px;
+    height: 110px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    flex-direction: column;
+    justify-items: center;
+  
 }
 .protagonista p {
     display: list-item;
